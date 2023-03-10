@@ -1,0 +1,48 @@
+.header{
+    /* border: 2px solid blue; */
+    box-shadow: 4px 4px 8px #ff0d00;
+    width: 100%;
+    height: 13%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:  white;
+}
+.header img{
+    width: 100px;
+    height: 5.5rem;
+    
+    /* border: 2px solid black; */
+}
+.header input{
+    width: 500px;
+    height: 3rem;
+    border-radius: 5px;
+    outline: black;
+    border: 2px solid black;
+    padding: 1.3rem;
+    font-size: 1.4rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    color: rgb(10, 28, 28);
+    box-shadow: 5px 5px 10px black;
+
+}
+
+.header button{
+    width: 150px;
+    height: 3rem;
+    border-radius: 5px;
+    margin-left: 2rem;
+    /* background-color: rgb(16, 87, 146); */
+    font-size: 1.4rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    color: rgb(12, 37, 37);
+    box-shadow: 5px 5px 10px black;
+}
+
+button:hover{
+    background-color: rgb(78, 127, 180);
+    color: black;
+}

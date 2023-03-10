@@ -1,0 +1,36 @@
+.main-div{
+    /* border: 2px solid black; */
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+   /* background-color: gray; */
+}
+
+.main-div .card{
+    margin-top: 5rem;
+    border-radius: 20px;
+    width: 300px;
+    /* box-shadow: 3px 3px 7px ; */
+    min-height: 500px;
+    margin: 1.9rem;
+    display:  flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card h3{
+    text-align: center;
+    font-size: 1.6rem;
+    padding: 1.1rem;
+    font-weight: 700;
+    color: rgb(80, 45, 45);
+    
+}
+
+.card p{
+    font-size: 1.3rem;
+    padding-top:1rem;
+    font-weight: 700;
+    
+}
